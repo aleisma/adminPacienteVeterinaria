@@ -1,0 +1,44 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(-225deg, rgb(5, 221, 16) 0%, rgb(43, 151, 170) 52%, rgb(14, 119, 133) 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+  
+}
+.card{
+  box-shadow: 10px 10px 10px rgb(237, 238, 182);
+}
+
+
+
+
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: rgb(241, 240, 248);
+  font-family: "Mystery Quest", cursive;
+  font-size: 400%;
+}
+.lista-citas .media {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 3rem;
+}
+
+.lista-citas .media:last-of-type{
+  border-bottom: 0;
+}
+.lista-citas .media-body p {
+  margin:0;
+}
+.lista-citas .media-body button {
+  margin-top: 1rem!important;
+}
+.lista-citas .media-body span {
+  font-weight: bold;
+}
